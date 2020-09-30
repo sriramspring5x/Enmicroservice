@@ -21,6 +21,6 @@ The application we will be building will need to be able to do these things:
 - Click run and wait for project to be built
 - Go to http://localhost:8080/h2-console/ for Database. You can check data in tables here.
 - Username is "sa" and password is "1234"
-- Go to http://localhost:8080/swagger-ui.html#/dependent45enrollee45rest45controller
+- Go to http://localhost:8080/swagger-ui.html#/
 - You will find apis here. Fill necessary fields and click Try it out
 - You can check result in DB and see new data
