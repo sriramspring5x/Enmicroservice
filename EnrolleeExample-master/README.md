@@ -19,8 +19,22 @@ The application we will be building will need to be able to do these things:
 
 #Notes
 - Click run and wait for project to be built
+
+# H2 Console
 - Go to http://localhost:8080/h2-console/ for Database. You can check data in tables here.
+- Driver Class Name: org.h2.Driver
+- JDBC URL: jdbc:h2:mem:testdb
 - Username is "sa" and password is "1234"
+
+# Queries used Frequently in application:
+
+select * from TBL_ENROLLEE ;
+
+select * from TBL_DEPENDENT_ENROLLEE 
+
+# Swagger UI
 - Go to http://localhost:8080/swagger-ui.html#/
 - You will find apis here. Fill necessary fields and click Try it out
 - You can check result in DB and see new data
+
+
